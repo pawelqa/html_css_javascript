@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz kontaktowy</title>
+</head>
+<body>
+<a href="index.html">Home</a>
+<form action="index.html" method="get">
+    <label>Imię: <input type="text" name="firstName" placeholder="wprowadz imię"></label><br/><br/>
+    <label>Nazwisko: <input type="text" name="lastName"></label><br/>
+    <label>Pleć:
+        <select name="gender">
+            <option>Kobieta</option>
+            <option>Mężczyzna</option>
+        </select>
+    </label><br/>
+    <label> wiadomosc:
+        <textarea name="message">Dzień dobry!</textarea>
+    </label><br/><br/>
+<button type="submit">wyslij</button>
+    <button type="reset">wyczyść</button>
+</form>
+</body>
+</html>
