@@ -1,0 +1,22 @@
+table {
+    border: 1px solid;
+    width: 80%;
+    alignment: center;
+
+}
+
+#identyfikator{
+    background-color: green;
+}
+
+.mojeKlasa{
+color: blue;
+}
+
+.mojeKlasa.drugaKlasa{
+color:yellow;
+}
+
+[align="center"]{
+    font-size: larger;
+}
